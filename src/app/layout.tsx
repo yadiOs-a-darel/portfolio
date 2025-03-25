@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className='text-white bg-white font-stretch-100% md:flex'
+        className='text-white bg-white font-stretch-100%'
       >
         <div className="md:flex">
             <NavBar />
