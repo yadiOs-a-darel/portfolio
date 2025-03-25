@@ -1,5 +1,5 @@
 
-import Link from "next/link";
+
 
 
 interface Image {
@@ -40,7 +40,21 @@ const imagesData:Array<Image> = [
     image: "https://images.squarespace-cdn.com/content/v1/624b3c6dfa94ce68f1db3837/1649097845765-JMOLHVDOBVZL01JT09FI/Group+95.jpg?format=1500w",
   
   },
-
+  {
+    title: "Livre 01",
+    image: "https://images.squarespace-cdn.com/content/v1/624b3c6dfa94ce68f1db3837/1649097845765-JMOLHVDOBVZL01JT09FI/Group+95.jpg?format=1500w",
+  
+  },
+  {
+    title: "Livre 01",
+    image: "https://images.squarespace-cdn.com/content/v1/624b3c6dfa94ce68f1db3837/1649097845765-JMOLHVDOBVZL01JT09FI/Group+95.jpg?format=1500w",
+  
+  },
+  {
+    title: "Livre 01",
+    image: "https://images.squarespace-cdn.com/content/v1/624b3c6dfa94ce68f1db3837/1649097845765-JMOLHVDOBVZL01JT09FI/Group+95.jpg?format=1500w",
+  
+  },
 ]
 
 export default function page() {
@@ -53,7 +67,7 @@ export default function page() {
               <div>
                   <img src={image.image} alt={image.image} />
               </div>
-              <Link className="flex items-center justify-center font-medium text-sm underline" href={"#"}>{image.title}</Link>
+              <div className="flex items-center justify-center font-medium text-sm">{image.title}</div>
           </div>
       )
   })
@@ -62,28 +76,11 @@ export default function page() {
 
   return (
     <div className="bg-white text-black grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-        <main className="flex flex-col gap-2 row-start-2 items-center sm:place-items-center font-light text-6xl pt-40">
-          <div>
-          Fine Art Painter. 
-          </div>
-          <div className=''>
-            Printmaker.
-          </div>
-          <div className="grid grid-cols-3 gap-6 flex-shrink-0 mt-45  md:grid-cols-3">
+        <main className="flex flex-col gap-2 row-start-2 items-center sm:place-items-center font-light text-6xl ">
+          <div className="grid grid-cols-3 gap-6 space-y-35">
                 {images}
-          </div>
-          <div className="grid grid-cols-2">
-            <img src="https://images.squarespace-cdn.com/content/v1/624b3c6dfa94ce68f1db3837/1649097845771-1QWQQXHZI6PN43U7EWEU/Group+58.jpg?format=1500w" alt="image" />
-            
-            <div className="flex text-sm items-center justify-center">
-                  <p className=" space-x-2 space-y-4" >
-                    <h1 className="text-5xl" >Contact</h1> <br /> 
-                     <h1>For custom paintings, or any questions you can contact me here:</h1>  <br />
-                    <Link href={"#"} className="underline">email@email.com <br /> (555)555-5555</Link>
-                  </p>
-             </div>  
-          </div>
+            </div>
         </main>
-    </div> 
+    </div>
   )
 }
