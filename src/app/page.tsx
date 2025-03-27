@@ -62,7 +62,7 @@ export default function page() {
 
   return (
     <div className="bg-white text-black grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-        <main className="flex flex-col gap-2 row-start-2 items-center sm:place-items-center font-light text-6xl pt-40">
+        <main className="flex flex-col gap-2 row-start-2 items-center sm:place-items-center font-light text-6xl pt-50">
           <div>
           Fine Art Painter. 
           </div>

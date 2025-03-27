@@ -9,7 +9,7 @@ export default function NavBar() {
         <nav className="bg-white border-gray-200 fixed">
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1 " id="navbar-cta">
-                <ul className="flex flex-col mt-4  rtl:space-x-reverse md:flex-row gap-8">
+                <ul className="flex flex-col mt-4 rtl:space-x-reverse md:flex-row gap-8">
                   <li>
                     <Link href="/" aria-current="page"></Link>
                   </li>

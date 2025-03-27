@@ -18,7 +18,7 @@ export default function RootLayout({
       <body
         className='text-white bg-white font-stretch-100%'
       >
-        <div className="md:flex">
+        <div className="">
             <NavBar />
           </div>
         {children}
