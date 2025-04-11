@@ -1,4 +1,5 @@
 
+import Image from "next/image";
 import Link from "next/link";
 
 
@@ -75,12 +76,12 @@ export default function page() {
           <div className="grid grid-cols-2">
             <img src="https://images.squarespace-cdn.com/content/v1/624b3c6dfa94ce68f1db3837/1649097845771-1QWQQXHZI6PN43U7EWEU/Group+58.jpg?format=1500w" alt="image" />
             
-            <div className="flex text-sm items-center justify-center">
-                  <p className="space-x-2 space-y-4" >
-                    <h1 className="text-5xl" >Contact</h1> <br /> 
-                     <h1>For custom paintings, or any questions you can contact me here:</h1>  <br />
-                    <Link href={"#"} className="underline">email@email.com <br /> (555)555-5555</Link>
-                  </p>
+            <div className="flex text-sm items-center justify-center ">
+              <p>
+                  Contact <br />
+                  For custom paintings, or any questions you can contact me here:  <br />
+                  <Link href={"#"} className="underline">email@email.com <br /> (555)555-5555</Link>
+              </p>
              </div>  
           </div>
         </main>

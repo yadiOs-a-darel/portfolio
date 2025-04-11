@@ -29,19 +29,8 @@ export default function Home() {
           <p>email@example.com</p>
           <Link className="underline" href={"#"}>instagram</Link>
           
-        </div>
-        <div className="flex align-baseline gap-70">
-
-          <p> Made with <Link href="#" className="underline">Squarespace</Link> </p>
-          <p className="mt-6"> Sign up with your email address to receive news and updates.</p>
-          <p>©JayMontclaire</p>
-        </div>
-        <div className="flex items-center justify-center space-x-2 scale-x-90 scale-y-200 ">
-          <input className="border border-gr" placeholder="Email Address" type="email" name="mail"/>
-          <button className="bg-black text-white text-justify ">Sign Up</button>
-        </div>
-        
-        </main>
+        </div>        
+      </main>
       </div>
     );
   }
