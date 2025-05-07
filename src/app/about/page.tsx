@@ -6,7 +6,7 @@ export default function Home() {
     return (
       <div className="bg-white text-black grid grid-rows-[20px_1fr_20px] place-items-stretch justify-items-start min-h-screen pl-15 ">
         <main className="flex flex-col gap-22 row-start-2">
-        <p className="pt-15">
+        <p className="pt-10 lg:mt-40">
           About
         </p>
         <p className=" font-sans text-3xl">

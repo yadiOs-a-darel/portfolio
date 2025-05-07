@@ -16,13 +16,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className='text-white bg-white font-stretch-100%'
+        className='text-white bg-white font-mono'
       >
-        <div className="">
+        <div className="gap-4">
+          <div>
             <NavBar/>
           </div>
-        {children}
-        <Footer/>
+          {children}
+          <div className="mt-0">
+          <Footer/>
+          </div>
+        </div>
+        
       </body>
     </html>
   );
