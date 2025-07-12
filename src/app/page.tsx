@@ -50,7 +50,7 @@ export default function page() {
 
     const images = imagesData.map(function(image, index) {
       return (
-          <div key={index} className="align-middle lg:mt-60">
+          <div key={index} className="align-middle lg:mt-45">
               <div>
                   <img src={image.image} alt={image.image} />
               </div>
